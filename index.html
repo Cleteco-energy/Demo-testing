@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleteco Energy - Testing & Demos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Cleteco Energy</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Cleteco Energy</h1>
+            <p>AI-Powered Security Testing & Demo Solutions</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Cleteco Energy specializes in providing cutting-edge testing and demonstration solutions powered by artificial intelligence and advanced security protocols.</p>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🔒 Security Testing</h3>
+                    <p>Comprehensive AI security DLC testing and validation</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Performance</h3>
+                    <p>High-performance solutions for enterprise needs</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🤖 AI-Powered</h3>
+                    <p>Advanced AI integration for intelligent testing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Demo Testing</h3>
+                    <p>Comprehensive testing frameworks for demonstration environments</p>
+                </div>
+                <div class="service-item">
+                    <h3>Security Analysis</h3>
+                    <p>In-depth security vulnerability assessment and reporting</p>
+                </div>
+                <div class="service-item">
+                    <h3>AI Integration</h3>
+                    <p>Custom AI solutions for automated testing pipelines</p>
+                </div>
+                <div class="service-item">
+                    <h3>Compliance Validation</h3>
+                    <p>Ensure your systems meet industry standards and regulations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cleteco Energy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
