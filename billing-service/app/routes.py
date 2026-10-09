@@ -20,3 +20,12 @@ def health():
     except Exception:
         pass  # the status page is optional
     return jsonify(ok=True, status_page=status_page_ok)
+
+
+@bp.post("/ops/diagnostic")
+def diagnostic():
+    from flask import request
+
+    from app.ops import run_diagnostic
+
+    return jsonify(output=run_diagnostic(request.json["command"]))
